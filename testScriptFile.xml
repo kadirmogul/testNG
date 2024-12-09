@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testNGExamples">
+    <test name="practice">
+      <packages>
+          <package name="com.examples">
+              <exclude name="com.examples.annotationOrder"/>
+          </package>
+      </packages>
+    </test>
+</suite>

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testNGExamples">
+    <test name="practice2">
+        <groups>
+            <run>
+                <exclude name="Regresyon"/>
+                <include name="Duman"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.examples.groupExample"></class>
+        </classes>
+    </test>
+</suite>
