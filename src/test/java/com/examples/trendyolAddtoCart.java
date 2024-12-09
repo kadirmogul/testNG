@@ -43,8 +43,7 @@ public class trendyolAddtoCart extends BaseTest{
                     throw new RuntimeException(e);
                 }
         }
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
-        driver.manage().window().maximize();
+
 
     }
     @Test(priority = 1, description = "Arama sonucu",timeOut = 10000, invocationCount = 1)
